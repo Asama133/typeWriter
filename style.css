@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /* background: rgb(52, 52, 210); */
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2em;
+}
+.intro{
+    display: inline-block;
+   
+}
+span{
+    display: none;
+    border-right:1px solid goldenrod;
+    font-size: 2em;
+    -webkit-box-reflect: below 7px linear-gradient(transparent,#00508299);
+}
+.intro,span{
+   
+    font-weight: bold;
+    background-image: url("forest-g00d63ede7_640.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    -webkit-box-reflect: below 7px linear-gradient(transparent,#00508299);
+}
+
